@@ -1,0 +1,76 @@
+body{ 
+    background-color: rgb(185, 173, 183);
+    color: rgb(15, 14, 15);
+}
+
+#principal{
+
+    font-size: 3.5em;
+    color: beige;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #princip2{
+    font-size: 1em;
+    background-color: rgb(245, 243, 243);
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    margin-top: 0.5em;
+
+   }
+
+.linea{
+
+    background-color: rgb(242, 247, 247);
+    border: 1px solid rgb(19, 18, 18); 
+    width: 15vw;
+    margin: 1em;
+    padding: 1px;
+    border-radius: 5%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+.linea:hover{
+    background-color: pink;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.list{
+
+    color: rgb(150, 95, 95);
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+h2{
+    background-color: rgb(169, 123, 212);
+    color: rgb(238, 231, 233);
+    font-size: 1.4em;
+   margin: 5em;
+    }
+
+
+p{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+.medidaa{
+    padding: 0.4em;
+    margin: 1em 15em 1em 15em;
+    display: flex;
+background-color: rgb(223, 170, 170);
+justify-content: space-between;
+width: 60vw;
+}
